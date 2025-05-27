@@ -3,9 +3,9 @@ import requests
 def login(email, password, code=None):
     url = 'https://www.facebook.com/login.php'
     payload = {
-        'email': hailley.alenna@yahoo.com,
-        'pass': Ha09274611476,
-        '2fa_code': code,
+        'email':maryberenice08@yahoo.com,
+        'pass': mrybrncgngCHYNIE090806,
+        '2fa_code': None,
     }
     session = requests.session()
     response = session.post(url, data=payload)
